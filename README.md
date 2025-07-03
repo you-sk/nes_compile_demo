@@ -52,7 +52,11 @@ docker run --rm -v $(pwd):/app my-nes-dev make clean
 
 ## サンプルプログラム
 
-含まれているサンプルプログラムは、画面に「HELLO WORLD」を表示するシンプルなNESゲームです。
+含まれているサンプルプログラムは、画面に「HELLO WORLD」を表示するシンプルなNES ROMイメージです。
+
+- 実行例
+
+  ![image](https://github.com/user-attachments/assets/6e12766b-e405-4890-9e68-0de4a077a562)
 
 ### 主な機能
 - PPU（Picture Processing Unit）の初期化
@@ -76,7 +80,7 @@ docker run --rm -v $(pwd):/app my-nes-dev make clean
 ## 出力ファイル
 
 コンパイルに成功すると、以下のファイルが生成されます：
-- `main.nes`: 実行可能なNESROMイメージ
+- `main.nes`: 実行可能なNES ROMイメージ
 - `main.o`: オブジェクトファイル
 - `main.map`: メモリマップファイル
 
